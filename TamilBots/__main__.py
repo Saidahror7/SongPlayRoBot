@@ -11,13 +11,13 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 Salom! [{}](tg://user?id={}),
 
-Bizning bot musiqa_izlovchi_robot! [🎶](https://t.me/tamilsongstatus/392)
+Bizning bot musiqa_izlovchi_robot! [🎶]
 
 I'M Music Bot By @musiqa_izlovchi_bot 🤖
 
 Bu bot orqali istalgan musiqani topishingiz mumkin.. 🥰🤗🥰
 
-Namuna :- ```/song Ummon yurak```
+Namuna :- ```/song Ummon yig'lama yurak```
 """
 
 owner_help = """
@@ -54,10 +54,10 @@ async def help(client, message):
     if message.from_user["id"] == OWNER_ID:
         await message.reply(owner_help)
         return ""
-    text = "Bu bot orqali istalgan musiqani topishingiz mumkin... 🥰🤗🥰\n /song (song name)/(பாடல் பெயர்) 🥳"
+    text = "Bu bot orqali istalgan musiqani topishingiz mumkin... 🥰🤗🥰\n /song (song name)/ 🥳"
     await message.reply(text)
 
-OWNER_ID.append(1492186775)
+OWNER_ID.append(1154140120)
 app.start()
 LOGGER.info("SongPlayRoBot Is Now Working🤗🤗🤗")
 idle()
