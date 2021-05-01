@@ -11,9 +11,9 @@ from TamilBots.sql.chat_sql import add_chat_to_db
 start_text = """
 Salom! [{}](tg://user?id={}),
 
-Bizning bot musiqa_izlovchi_robot! [🎶]
+Bizning bot @musiqa_izlovchi_robot! [🎶]
 
-I'M Music Bot By @musiqa_izlovchi_bot 🤖
+Admin @saidjon_okenn
 
 Bu bot orqali istalgan musiqani topishingiz mumkin.. 🥰🤗🥰
 
